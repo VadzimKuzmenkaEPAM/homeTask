@@ -7,17 +7,17 @@ public class ComissionedWorker extends Employee {
     }
 
     @Override
-    public void payment() {
+    public void calculateSalary() {
         System.out.println("Comissioned salary");
     }
 
     @Override
-    public void bonus() {
+    public void calculateBonus() {
         System.out.println("Comissioned Bonus");
     }
 
     @Override
-    public void fullPayment() {
+    public void calculateFullPayment() {
         System.out.println("Salary + Bonus");
     }
 }

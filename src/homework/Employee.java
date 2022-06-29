@@ -1,6 +1,6 @@
 package homework;
 
-public class Employee implements PaymentCalculation {
+public class Employee implements CalculationOfDifferentTypesOfPayment {
     String name;
 
     public Employee(String name) {
@@ -8,16 +8,16 @@ public class Employee implements PaymentCalculation {
     }
 
     @Override
-    public void payment() {
+    public void calculateSalary() {
 
     }
 
     @Override
-    public void bonus() {
+    public void calculateBonus() {
 
     }
 
     @Override
-    public void fullPayment() {
+    public void calculateFullPayment() {
     }
 }

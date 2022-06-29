@@ -11,8 +11,8 @@ public class main {
 
     static void printInfo(Employee employee) {
         System.out.println(employee.name);
-        employee.fullPayment();
-        employee.payment();
-        employee.bonus();
+        employee.calculateFullPayment();
+        employee.calculateBonus();
+        employee.calculateSalary();
     }
 }

@@ -6,17 +6,17 @@ public class HourlyWorker extends Employee {
     }
 
     @Override
-    public void payment() {
+    public void calculateSalary() {
         System.out.println("Hourly Salary");
     }
 
     @Override
-    public void bonus() {
+    public void calculateBonus() {
         System.out.println("Hourly Bonus");
     }
 
     @Override
-    public void fullPayment() {
+    public void calculateFullPayment() {
         System.out.println("Salary + Bonus");
     }
 }
