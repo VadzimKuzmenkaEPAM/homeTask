@@ -1,6 +1,6 @@
 package inheritence.phone;
 
-public class CellularPhone extends WirelessPhone{
+public class CellularPhone extends WirelessPhone {
     private boolean internetAccess;
 
     public CellularPhone(String brandName, int yearOfIssue, double batteryLifeTime, boolean internetAccess) {

@@ -1,6 +1,6 @@
 package inheritence.phone;
 
-public class Smatphone extends CellularPhone{
+public class Smatphone extends CellularPhone {
     private String operatingSystem;
     private double cameraMegapixel;
 
@@ -32,8 +32,9 @@ public class Smatphone extends CellularPhone{
     public void call() {
         System.out.println(getBrandName() + " " + "call to another phone..");
     }
+
     @Override
     public void ring() {
-        System.out.println(getBrandName() +" " + "is ringing..");
+        System.out.println(getBrandName() + " " + "is ringing..");
     }
 }
