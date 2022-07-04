@@ -1,19 +1,17 @@
-import composition.Car;
-import composition.Engine;
-import composition.Handlebar;
-import composition.Wheel;
+import composition.*;
+      /*  Create a car class, which will consist of the
+        required car attributes (motor, steering wheel, wheels, etc.), for this, use composition.
+        Also add the ability to create a car with a spoiler (use aggregation). Add a
+        interface with "Run" method .*/
+
 
 public class Main {
     public static void main(String[] args) {
-        Engine engine = new Engine(1.8, 200, "Audi");
-        Wheel[] wheels = new Wheel[]{
-                new Wheel("front right"),
-                new Wheel("front left"),
-                new Wheel("rear right"),
-                new Wheel("rear left")
-        };
-        Handlebar handlebar = new Handlebar("Black");
-        Car car = new Car(engine, wheels, handlebar);
-        car.carRun();
+
+        Car car = new Car ();
+        car.carRun(); // composition
+
+        Car carWithSpoiler = new Car(new Spoiler("Black")); // agregation
+        carWithSpoiler.carRun();
     }
 }

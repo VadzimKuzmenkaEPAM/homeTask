@@ -1,16 +1,20 @@
 package composition;
 
 public class Car implements CarRun {
-    Engine engine;
-    Wheel[] wheel;
-    Handlebar handlebar;
+    Spoiler spoiler; // for agregatiom
+    Engine engine = new Engine(1.5, 200, "Audi"); //
+    Wheel[] wheel = { new Wheel("front right"), //
+            new Wheel("front left"), //
+            new Wheel("rear right"), //
+            new Wheel("rear left")}; //
+    Handlebar handlebar = new Handlebar("Black"); // composition
 
-    public Car(Engine engine, Wheel[] wheel, Handlebar handlebar) {
-        this.engine = engine;
-        this.wheel = wheel;
-        this.handlebar = handlebar;
+    public Car(Spoiler spoiler) {
+        this.spoiler = spoiler;
+    } // for agregation
+
+    public Car() { // for composition
     }
-
 
     @Override
     public void carRun() {
