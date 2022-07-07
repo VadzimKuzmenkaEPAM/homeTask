@@ -6,6 +6,7 @@ public class CellularPhone extends WirelessPhone {
     public CellularPhone(String brandName, int yearOfIssue, double batteryLifeTime, boolean internetAccess) {
         super(brandName, yearOfIssue, batteryLifeTime);
         internetAccess = this.internetAccess;
+        System.out.println("Constructor from CelluralPhone class working..");
     }
 
     public boolean isInternetAccess() {
