@@ -1,5 +1,6 @@
 package inheritence.phone;
-
+//create an inheritance hierarchy from the "phone" class, add static and non-static blocks to classes
+// and logs to class constructors
 public class CellularPhone extends WirelessPhone {
     private boolean internetAccess;
 
