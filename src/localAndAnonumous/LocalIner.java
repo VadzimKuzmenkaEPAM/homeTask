@@ -1,5 +1,5 @@
 package localAndAnonumous;
-
+// create local inner and anonymous classes
 public class LocalIner {
     public static void main(String[] args) {
         Math math = new Math();
@@ -11,7 +11,6 @@ public class LocalIner {
             }
         };*/
     }
-
 }
 
 class Math {
