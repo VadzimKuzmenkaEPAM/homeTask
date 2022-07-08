@@ -1,6 +1,6 @@
 package interfacesTask;
 
-public interface WriteConspectusAtSchool {
+public interface WritingNotesAtSchool{
     default void write() {
         System.out.println("I writing conspectus at school");
     }
