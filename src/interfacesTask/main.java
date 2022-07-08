@@ -8,5 +8,6 @@ public class main {
 
         schoolboy.write();
         student.write();
+        WriteConspectusAtSchool.gettingSetisfaction();
     }
 }

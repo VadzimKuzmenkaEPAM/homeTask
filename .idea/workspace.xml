@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0884c88c-ad33-48db-9cfa-eed76fba7340" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/interfacesTask/Schoolboy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfacesTask/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfacesTask/WriteConspectusAtSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfacesTask/WriteConspectusAtUniversity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0884c88c-ad33-48db-9cfa-eed76fba7340" name="Changes" comment="change gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/WriteConspectusAtSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/WriteConspectusAtSchool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
