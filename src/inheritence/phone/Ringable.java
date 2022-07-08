@@ -1,5 +1,5 @@
 package inheritence.phone;
 
-public interface Ring {
+public interface Ringable {
     void ring ();
 }

@@ -1,6 +1,6 @@
 package inheritence.phone;
 
-public class Phone implements Call, Ring {
+public class Phone implements Call, Ringable {
     private String brandName;
     private static int yearOfIssue;
 
