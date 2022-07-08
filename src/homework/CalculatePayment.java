@@ -1,6 +1,6 @@
 package homework;
 
-public interface PaymentCalculation {
+public interface CalculatePayment {
     void payment();
 
     void bonus();
