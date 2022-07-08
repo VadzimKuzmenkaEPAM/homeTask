@@ -1,3 +1,14 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/out/production/homeTask/inheritence/phone/Call.class
+/out/production/homeTask/inheritence/phone/CellularPhone.class
+/out/production/homeTask/inheritence/Main.class
+/.idea/misc.xml
+/out/production/homeTask/inheritence/phone/Phone.class
+/out/production/homeTask/inheritence/phone/Ring.class
+/out/production/homeTask/inheritence/phone/Smatphone.class
+/.idea/uiDesigner.xml
+/.idea/vcs.xml
+/out/production/homeTask/inheritence/phone/WirelessPhone.class
+/.idea/workspace.xml
