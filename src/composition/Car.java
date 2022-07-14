@@ -1,24 +1,36 @@
 package composition;
 
-public class Car implements CarRun {
-    Spoiler spoiler; // for agregatiom
-    Engine engine = new Engine(1.5, 200, "Audi"); //
-    Wheel[] wheel = { new Wheel("front right"), //
-            new Wheel("front left"), //
-            new Wheel("rear right"), //
-            new Wheel("rear left")}; //
-    Handlebar handlebar = new Handlebar("Black"); // composition
+import java.util.Arrays;
 
-    public Car(Spoiler spoiler) {
+public class Car implements Runnable {
+    Spoiler spoiler;  // aggregation
+    private final Engine engine = new Engine(1.5, 200, "Audi"); // composition
+    Wheel[] wheel; // aggregation
+    Handlebar handlebar; // aggregation
+
+    public Car(Spoiler spoiler, Wheel[] wheel, Handlebar handlebar) { // aggregation
         this.spoiler = spoiler;
-    } // for agregation
+        this.wheel = wheel;
+        this.handlebar = handlebar;
+    }
 
-    public Car() { // for composition
+    public Engine getEngine() {
+        return engine;
     }
 
     @Override
-    public void carRun() {
+    public void runCar() {
         System.out.println("We start the engine, the wheels are spinning, " +
                 "the steering wheel is spinning, the car is moving ..");
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "spoiler=" + spoiler +
+                ", engine=" + engine +
+                ", wheel=" + Arrays.toString(wheel) +
+                ", handlebar=" + handlebar +
+                '}';
     }
 }

@@ -7,4 +7,10 @@ public class Spoiler {
         this.colour = colour;
     }
 
+    @Override
+    public String toString() {
+        return "Spoiler{" +
+                "colour='" + colour + '\'' +
+                '}';
+    }
 }
