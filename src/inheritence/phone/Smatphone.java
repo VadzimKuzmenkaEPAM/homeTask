@@ -14,7 +14,6 @@ public class Smatphone extends CellularPhone {
         System.out.println("non-static block from Smartphone class is working");
     }
 
-
     public Smatphone(String brandName, int yearOfIssue, double batteryLifeTime,
                      boolean internetAccess, String operatingSystem, double cameraMegapixel) {
         super(brandName, yearOfIssue, batteryLifeTime, internetAccess);

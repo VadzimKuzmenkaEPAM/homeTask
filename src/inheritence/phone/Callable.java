@@ -1,6 +1,6 @@
 package inheritence.phone;
 
-public interface Call {
+public interface Callable {
 
     void call();
 }

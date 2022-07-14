@@ -1,9 +1,8 @@
 package inheritence.phone;
 
-public class Phone implements Call, Ringable {
+public class Phone implements Callable, Ringable {
     private String brandName;
     private static int yearOfIssue;
-
 
    static  {
         yearOfIssue = 150;
@@ -37,7 +36,6 @@ public class Phone implements Call, Ringable {
     public void setYearOfIssue(int yearOfIssue) {
         this.yearOfIssue = yearOfIssue;
     }
-
 
     @Override
     public void call() {
