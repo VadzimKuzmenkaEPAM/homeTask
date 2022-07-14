@@ -1,7 +1,5 @@
 package homework;
 
-import java.util.Objects;
-
 public class Byn {
     private int value;
 
@@ -39,7 +37,7 @@ public class Byn {
         return this;
     }
 
-    public Byn mulRub(double k) {
+    public Byn multiplyRub(double k) {
         value *= k;
         return this;
     }

@@ -17,6 +17,6 @@ public class SalariedEmployee extends Employee {
 
     @Override
     public Byn calculateBonus() {
-        return new Byn(salary.mulRub(bonusCoefficient));
+        return new Byn(salary.multiplyRub(bonusCoefficient));
     }
 }

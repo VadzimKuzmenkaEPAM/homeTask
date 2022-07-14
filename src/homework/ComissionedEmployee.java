@@ -14,11 +14,11 @@ public class ComissionedEmployee extends Employee {
 
     @Override
     public Byn calculateSalary() {
-        return new Byn(productsSold.mulRub(commissionPercentage));
+        return new Byn(productsSold.multiplyRub(commissionPercentage));
     }
 
     @Override
     public Byn calculateBonus() {
-        return new Byn(calculateSalary().mulRub(bonusCoefficient));
+        return new Byn(calculateSalary().multiplyRub(bonusCoefficient));
     }
 }
