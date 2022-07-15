@@ -1,9 +1,9 @@
 package interfacesTask;
 
-public class Schoolboy implements WritingNotesAtSchool, WritingConspectusAtUniversity {
+public class Schoolboy implements WritingableAtSchool, WritingableAtUniversity {
     @Override
     public void write() {
-        WritingNotesAtSchool.super.write();
+        WritingableAtSchool.super.write();
 
     }
 }

@@ -1,6 +1,6 @@
 package interfacesTask;
 
-public interface WritingConspectusAtUniversity {
+public interface WritingableAtUniversity {
 
     private void gettingGrade() {
         System.out.println("Grade = 2");

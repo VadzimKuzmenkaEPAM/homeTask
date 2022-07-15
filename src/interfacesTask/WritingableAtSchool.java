@@ -1,17 +1,18 @@
 package interfacesTask;
 
-public interface WritingNotesAtSchool{
+public interface WritingableAtSchool{
     default void write() {
         System.out.println("I writing conspectus at school");
     }
 
-    private void gettingGrade() {
+    private void getGrade() {
         System.out.println("Grade = 2");
     }
 
-    static void gettingSetisfaction() {
+    static void getSatisfaction() {
         System.out.println("yes");
     }
+
 
 
 }

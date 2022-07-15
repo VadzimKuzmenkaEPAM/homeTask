@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0884c88c-ad33-48db-9cfa-eed76fba7340" name="Changes" comment="add private and static methods to interface" />
+    <list default="true" id="1eb0138b-f438-430a-af56-efca46d50d03" name="Changes" comment="fixed code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/Schoolboy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/Schoolboy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/WritingConspectusAtUniversity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/WritingableAtUniversity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfacesTask/WritingNotesAtSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacesTask/WritingableAtSchool.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +28,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BF5ct0fpxurau2N8e9x0jlswPR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,7 +81,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0884c88c-ad33-48db-9cfa-eed76fba7340" name="Changes" comment="" />
+      <changelist id="1eb0138b-f438-430a-af56-efca46d50d03" name="Changes" comment="fixed code" />
       <created>1656489076963</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
