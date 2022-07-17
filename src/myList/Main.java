@@ -5,15 +5,12 @@ package myList;
 
 public class Main {
     public static void main(String[] args) {
-        MyLinkedList myLinkedList = new MyLinkedList();
-        myLinkedList.add(1);
-        myLinkedList.add(10);
-        myLinkedList.add(100);
-        myLinkedList.add(1000);
-
-        System.out.println(myLinkedList);
-
-        myLinkedList.remove(2);
-        System.out.println(myLinkedList.get(2));
+        CustomArrayList customArrayList = new CustomArrayList();
+        customArrayList.add(0, 12);
+        customArrayList.add(5, 14);
+        customArrayList.add(3, 14);
+        customArrayList.remove(2);
+        System.out.println(customArrayList.size());
+        System.out.println(customArrayList.get(5));
     }
 }
